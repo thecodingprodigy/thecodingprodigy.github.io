@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="icon" href="image/Logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <title>WEBSITE  </title>
+</head>
+<body>
+        <section class="sub-header">
+            <nav>
+                <a href="home.html"><img class="logo" src="image/Logo.ico"></a>
+                <div class="navlinks" id="navLinks">
+                    <div class="close"><i class="fa fa-times" onclick="hideMenu()"></i></div>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="menu"><i class="fa fa-bars"onclick="showMenu()"></i></div>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+        
+                                <!------About Us Content----->
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are one if not the best team of mechanic</h1>
+                    <p> Our team compose of experience professional mechanic and an aspiring ones. <br>
+                        We can ensure you that you can trust your auto to us, We'll give it a care just like you do. <br>
+                        We are compose of 9 trained and experience mechanics. 
+                    </p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="image/meet.jpg">
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+                                <!--------Footer------->
+
+<section class="footer">
+            <h4>About Us</h4>
+            <p> We're Mix Of Experience Professional Mechanic And An Aspiring Ones</p>
+            <div class="icons">
+                <a href="https://web.facebook.com/RFgreasemonkey"><i class="fa fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/kenny_boiii09/"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/Kenny_Babes"><i class="fa fa-twitter-square"></i></a>
+            </div>
+            <p>Made By: Franken Roxas</p>
+        </section>
+
+
+
+
+                                    <!--------JS For Toggle Menu-------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
